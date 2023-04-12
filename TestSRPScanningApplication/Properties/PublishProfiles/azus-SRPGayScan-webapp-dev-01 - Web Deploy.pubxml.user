@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlL7i4szzbUC3kA6Qm75dCgAAAAACAAAAAAADZgAAwAAAABAAAACW33vVMxFrBllH4dFy8TE3AAAAAASAAACgAAAAEAAAAMLETE4tiDj6orX4TlXthPCAAAAAmGGBSlZRDITnkpv3j2oP/XxkGG2aY3EsXoV0elzIkJf/fRWlItUV1EmclQMnN6fPArMBKN1sFRmg1C+qACezPtcjLBJd1lGTkmF+PkMbCLDnzTcgSwKkAW8+1XFZIrDnsUOxkvtiFgEz7RVCNvL015eBnQWTnfibPIXG46iQl/wUAAAAOP+oJ5ht0LPxCcLxlGWAcyIEkXc=</EncryptedPassword>
+    <History>True|2023-04-10T19:09:38.1863996Z;True|2023-04-10T13:54:43.8220578-05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="APPLICATIONINSIGHTS_CONNECTION_STRING">
+      <Value>InstrumentationKey=75d03046-2182-4209-b3d4-b64c9a834390%3bIngestionEndpoint=https://southcentralus-3.in.applicationinsights.azure.com/%3bLiveEndpoint=https://southcentralus.livediagnostics.monitor.azure.com/</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

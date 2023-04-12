@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/3b732f7f-f5fa-4a7c-ad14-2bddc8db6060/resourceGroups/RG-UTILITY-DEV/providers/microsoft.insights/components/azus-SRPGayScan-webapp-dev-01</ApplicationInsightsResourceId>
+    <UserSecretsId>883e90b4-39cb-474e-806b-3bd88b259da0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>
